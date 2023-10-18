@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500&display=swap');
+
+
+
+.gradient-navbar {
+    background: linear-gradient(120deg, rgba(193,13,164,1) 0%, rgba(90,7,77,1) 11%, rgba(50,5,44,1) 29%, rgba(86,10,79,1) 47%, rgba(156,18,143,1) 67%, rgba(72,27,125,1) 80%, rgba(10,33,112,1) 100%)
+    
+}
+
+.gradient-navbar .nav-link {
+    color: white; /* Set text color to white */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+.gradient-navbar .nav-link:hover {
+    color: lightgray; /* Change color on hover */
+}
+.gradient-navbar .select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.gradient-navbar .select:hover,
+.gradient-navbar .select:focus {
+    color: lightgray;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    
+}
+/* styles.css or your corresponding stylesheet */
+.content-below-header {
+    padding-top: 160px;
+    padding-left: 0;
+    padding-right: 0;  
+  }

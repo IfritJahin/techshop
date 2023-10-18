@@ -1,0 +1,28 @@
+.footer {
+    background-color: #282c34; 
+    color: white; 
+    padding: 10px 0; 
+    position: relative;
+    width: 100%; 
+    text-align: center;
+
+}
+
+
+.footer.sticky-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.icon{
+    height: 20px; 
+    width: auto; 
+    display: absolute;
+    padding-left: 20px;
+}
+.footertext{
+    display: flex;
+    text-align: center;
+    padding-left: 515px;
+    padding-top: 10px;
+}
